@@ -1,0 +1,50 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.badge {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    margin-bottom: 1rem;
+}
+.badge img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.info h2 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.info p {
+    margin: 0;
+    font-size: 1em;
+}
+
+@media (max-width: 768px) {
+    .info h2 {
+        margin: 0 0 0.3rem 0;
+        font-size: 0.75em;
+        font-weight: 500;
+    }
+    .info p {
+        margin: 0;
+        font-size: 0.5em;
+    }
+    .badge {
+        width: 50%;
+        height: 50%;
+        padding-bottom: 50%;
+    }
+}
