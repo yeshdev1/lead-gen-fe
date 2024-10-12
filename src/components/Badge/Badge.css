@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    gap: 12px;
     cursor: pointer;
 }
 .badge {
@@ -30,6 +31,11 @@
 .info p {
     margin: 0;
     font-size: 1em;
+}
+
+.button-badge {
+    background: var(--logo-gradient);
+    box-shadow: 0 0 15px rgba(0, 128, 255, 0.5);
 }
 
 @media (max-width: 768px) {
