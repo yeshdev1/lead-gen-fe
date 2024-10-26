@@ -20,7 +20,7 @@ const Bios = () => (
                 <div key='yeshwanth'>
                     <h2 className="bioHeader">Yeshwanth Devababhaktuni</h2>
                     <div className="bioContent">
-                        Goutham is a talented Quality assurance engineer and has a master's degree in industrial engineer and a bachelor's degree in mechanical engineer from 
+                        Goutham is a talented Quality assurance engineer and has a master&apos;s degree in industrial engineer and a bachelor&apos;s degree in mechanical engineer from 
                             form Purdue University. He has worked for a variety of companies including Sanmina corp, Quanergy and currently at QuantumScape. He is currently our CEO and will 
                             help with and procure talent in his area of expertise which includes mechanical engineers, quality assurance engineers, program and project managers and any other 
                             specific position requiements you may have.
@@ -29,7 +29,7 @@ const Bios = () => (
                 <div key='goutham'>
                     <h2 className="bioHeader">Goutham Govada</h2>
                     <div className="bioContent">
-                        Goutham is a talented Quality assurance engineer and has a master's degree in industrial engineer and a bachelor's degree in mechanical engineer from 
+                        Goutham is a talented Quality assurance engineer and has a master&apos;ss degree in industrial engineer and a bachelor&apos;s degree in mechanical engineer from 
                         form Purdue University. He has worked for a variety of companies including Sanmina corp, Quanergy and currently at QuantumScape. He is currently our CEO and will 
                         help with and procure talent in his area of expertise which includes mechanical engineers, quality assurance engineers, program and project managers and any other 
                         specific position requiements you may have.
@@ -38,7 +38,7 @@ const Bios = () => (
                 <div key='nikhil'>
                     <h2 className="bioHeader">Nikhil Anjuri</h2>
                     <div className="bioContent">
-                        Goutham is a talented Quality assurance engineer and has a master's degree in industrial engineer and a bachelor's degree in mechanical engineer from 
+                        Goutham is a talented Quality assurance engineer and has a master&apos;s degree in industrial engineer and a bachelor&apos;s degree in mechanical engineer from 
                             form Purdue University. He has worked for a variety of companies including Sanmina corp, Quanergy and currently at QuantumScape. He is currently our CEO and will 
                             help with and procure talent in his area of expertise which includes mechanical engineers, quality assurance engineers, program and project managers and any other 
                             specific position requiements you may have.

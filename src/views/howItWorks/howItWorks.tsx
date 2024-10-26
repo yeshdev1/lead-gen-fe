@@ -29,7 +29,7 @@ const HowItWorks: React.FC<HowItWorksProps> = ({
                                 3. We comprehensively vet candidates based on the key attributes you are seeking, and rate them from 1 to 5 on each attribute. By default, we focus on communication skills, technical breadth and depth, and previous project complexity. This ensures we recommend candidates best suited for your role.
                             </li>
                             <li>
-                                4. We will then recommend candidates who excelled in the metrics that matter most to you, ensuring full transparency. We use AI transcription to provide detailed interview records, including the option to share recordings if desired. This helps you make informed decisions on whether to proceed with each candidate. Additionally, we provide "borderline PASS" candidates for your review to ensure no potential talent is overlooked.
+                                4. We will then recommend candidates who excelled in the metrics that matter most to you, ensuring full transparency. We use AI transcription to provide detailed interview records, including the option to share recordings if desired. This helps you make informed decisions on whether to proceed with each candidate. Additionally, we provide borderline pass candidates for your review to ensure no potential talent is overlooked.
                             </li>
                         </ol>
                     </div>,
