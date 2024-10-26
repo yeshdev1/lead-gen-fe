@@ -7,7 +7,7 @@ const MissionComponent = () => (
     <Fragment>
         <blockquote className="relative p-8">
             <p className="italic text-white">
-                <span>&ldquo;</span>{mission}<span>&rdquo;</span>
+                {mission}
             </p>
         </blockquote>
     </Fragment>
