@@ -13,7 +13,7 @@ import HowItWorks from '../views/howItWorks/howItWorks';
 // import EmailBar from '../components/EmailBar';
 
 export default function Home() {
-  const [currentTab, setCurrentTab] = useState<Tabs>('how-it-works');
+  const [currentTab, setCurrentTab] = useState<Tabs>('contact');
   return (
     <>
       <div className="items-center justify-items-center min-h-screen">

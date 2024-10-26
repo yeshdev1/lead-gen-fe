@@ -8,11 +8,11 @@ interface TransparentTabsInterface {
     setTab: (tab: TabTypes) => void;
 }
   
-const TransparentTabs = ({
+const TransparentTabs: React.FC<TransparentTabsInterface> = ({
     currentTab = 'how-it-works',
     setTab,
-}: TransparentTabsInterface) => {
-  
+}) => {
+    console.log('currentTab ', currentTab);
     const handleChange = (event: React.SyntheticEvent, newValue: TabTypes) => {
         setTab(newValue);
     };
@@ -28,12 +28,12 @@ const TransparentTabs = ({
           allowScrollButtonsMobile
           aria-label="scrollable force tabs example"
         >
-          <Tab value='how-it-works' label="Process" sx={{ flex: 0.8, textAlign: 'center', '&.Mui-selected': {
+          <Tab value='contact' label="Hire talent"sx={{ flex: 0.8, textAlign: 'center', '&.Mui-selected': {
               bgcolor: '#1e3c72', // Background when selected
               color: 'cyan', // Text color when selected
               fontWeight: 'bold',
             }}} />
-          <Tab value='contact' label="Hire talent"sx={{ flex: 0.8, textAlign: 'center', '&.Mui-selected': {
+          <Tab value='how-it-works' label="Process" sx={{ flex: 0.8, textAlign: 'center', '&.Mui-selected': {
               bgcolor: '#1e3c72', // Background when selected
               color: 'cyan', // Text color when selected
               fontWeight: 'bold',
