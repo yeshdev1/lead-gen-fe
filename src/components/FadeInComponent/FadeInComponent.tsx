@@ -7,7 +7,7 @@ interface FadeInSectionProps {
 
 interface StaggeredFadeInContent {
     texts: React.ReactNode[];
-    textAlign?: TextAlign;
+    textAlign?: string;
     maxWidth?: string;
 }
 
@@ -37,7 +37,7 @@ const FadeInSection: React.FC<FadeInSectionProps> = ({ children, delay }) => {
 
 const StaggeredFadeInContent: React.FC<StaggeredFadeInContent> = ({texts, textAlign, maxWidth}) => {
   return (
-    <div style={{ margin: '0 auto', textAlign: textAlign || 'center', maxWidth: maxWidth || '800px' }}>
+    <div style={{ margin: '0 auto', textAlign: textAlign as React.CSSProperties['textAlign'] || 'center', maxWidth: maxWidth || '800px' }}>
       {texts.map((text, index) => (
         <FadeInSection key={index} delay={index * 500}>
           {text}
