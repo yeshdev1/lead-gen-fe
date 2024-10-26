@@ -1,0 +1,88 @@
+.header {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;         
+}
+
+.inner-section {
+    width: 60%;            /* 80% width for the inner section */
+    height: 100%;          /* Full height to match the section */
+    background: var(--logo-gradient);; /* Choose any color */
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px; 
+}
+
+.mission {
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+    color: #666;
+    padding: 0 48px;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+    margin-bottom: 24px;
+}
+
+.bios {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out forwards;
+    margin-bottom: 24px;
+}
+
+.bioHeader {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    margin-top: 24px;
+}
+
+.bioContent {
+    font-size: 1rem;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@media (max-width: 768px) {
+    .header {
+        font-size: 1.2rem;
+        margin-bottom: 4px;
+        margin-top: 12px;
+        margin-left: 12px;
+    }
+    .mission {
+        font-size: 0.7rem;
+        padding: 24px;
+        margin-bottom: 12px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .bioHeader {
+        font-size: 0.8rem;
+        margin-bottom: 4px;
+        margin-top: 12px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .bios {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .bioContent {
+        font-size: 0.7rem;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+}

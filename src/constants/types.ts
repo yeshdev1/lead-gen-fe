@@ -1,0 +1,1 @@
+export type Tabs = 'how-it-works' | 'contact' | 'about';
