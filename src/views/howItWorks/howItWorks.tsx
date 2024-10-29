@@ -19,31 +19,31 @@ const HowItWorks: React.FC<HowItWorksProps> = ({
                     <div key="companies" className="block">
                         <h1 className="header-process">For Companies</h1>
                         <ol className="process">
-                            <li>
-                                1. Reach out to one of our talent acquisition specialists listed in the HIRE TALENT section, and provide information on the type of candidate you are looking for. We specialize in specific fields, as detailed in the About section.
+                            <li className="sentence">
+                                <span></span>1. <span>Contact one of our talent acquisition specialists in the HIRE TALENT section, specifying the type of candidate you need. We specialize in targeted fields, as detailed in the About section.</span>
                             </li>
-                            <li>
-                                2. We will work with you to set up an initial round of interviews with candidates based on your specific needs. We will also assess their interest in and commitment to your product and company.
+                            <li className="sentence">
+                                <span></span>2. <span>We’ll arrange initial interviews with candidates tailored to your requirements, assessing their interest in your product and company.</span>
                             </li>
-                            <li>
-                                3. We comprehensively vet candidates based on the key attributes you are seeking, and rate them from 1 to 5 on each attribute. By default, we focus on communication skills, technical breadth and depth, and previous project complexity. This ensures we recommend candidates best suited for your role.
+                            <li className="sentence">
+                                <span></span>3. <span>Each candidate is comprehensively vetted and rated (1-5) on key attributes like communication, technical skills, and project complexity, ensuring the best fit for your role.</span>
                             </li>
-                            <li>
-                                4. We will then recommend candidates who excelled in the metrics that matter most to you, ensuring full transparency. We use AI transcription to provide detailed interview records, including the option to share recordings if desired. This helps you make informed decisions on whether to proceed with each candidate. Additionally, we provide borderline pass candidates for your review to ensure no potential talent is overlooked.
+                            <li className="sentence">
+                                <span></span>4. <span> We recommend top candidates based on metrics that matter to you, with AI-transcribed interviews and optional recordings. We also provide borderline candidates for consideration, ensuring no potential talent is missed.</span>
                             </li>
                         </ol>
                     </div>,
                     <div key="recruiters" className="block">
                         <h1 className="header-process">For Recruiters</h1>
                         <ol className="process">
-                            <li>
-                                1. Reach out to one of our talent acquisition specialists listed in the HIRE TALENT section, and provide information on the type of candidate you are looking for. We specialize in specific fields, as detailed in the About section.
+                            <li className="sentence">
+                                <span></span>1. <span>Contact one of our talent acquisition specialists in the HIRE TALENT section with details on your candidate needs. We specialize in specific fields as outlined in the About section.</span>
                             </li>
-                            <li>
-                                2. We will work with you to understand the types of candidates you are seeking to fill your candidate pool, and provide tailored recommendations to potential clients and companies.
+                            <li className="sentence">
+                                <span></span>2. <span>We’ll collaborate with you to understand your ideal candidate profile, offering tailored recommendations for potential clients and companies.</span>
                             </li>
-                            <li>
-                                3. Based on the information you provide, we will identify key attributes in potential candidates to help you present them to clients with a higher degree of confidence that they will excel in the interview process. We focus on similar key attributes as mentioned for companies, including communication skills, technical expertise, and project experience.
+                            <li className="sentence">
+                                <span></span>3. <span> Using your input, we identify key attributes in candidates, focusing on communication, technical skills, and project experience, to help you present them with confidence for successful interviews.</span>
                             </li>
                         </ol>
                     </div>
